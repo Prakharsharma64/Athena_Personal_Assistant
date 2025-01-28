@@ -1,0 +1,98 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "check_system",
+            "patterns": [
+                "check system",
+                "system status",
+                "how is the system?",
+                "what's the system status?",
+                "is the system working?"
+            ],
+            "responses": [
+                "The system is running smoothly.",
+                "System is operating normally.",
+                "All systems are up and running."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful."
+            ],
+            "context": ["jokes"]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Athena, a Deep-Learning based Virtual Assistant"
+            ]
+        }
+    ]
+}
